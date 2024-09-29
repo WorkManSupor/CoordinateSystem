@@ -1,6 +1,8 @@
 cmake_minimum_required( VERSION 2.8 )
 project( joinMap )
 
+ADD_COMPILE_OPTIONS(-std=c++11 )
+ADD_COMPILE_OPTIONS(-std=c++14 )
 set( CMAKE_BUILD_TYPE Release )
 set( CMAKE_CXX_FLAGS "-std=c++11 -O3" )
 
